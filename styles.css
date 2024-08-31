@@ -1,0 +1,120 @@
+/* Importa a fonte Roboto do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Estilos aplicados ao corpo da página */
+body {
+    font-family: 'Roboto', sans-serif; 
+    line-height: 1.8; 
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; 
+    font-size: 18px;
+}
+
+/* Estilos para o cabeçalho do site */
+header {
+    background: #000; 
+    color: #fff; 
+    padding: 20px 0; 
+    text-align: center; 
+    font-size: 24px; 
+    font-weight: 700;
+}
+
+/* Estilos para o menu de navegação */
+nav ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline; 
+    margin-right: 15px; 
+}
+
+nav ul li a {
+    color: #ff0000; 
+    text-decoration: none; 
+    font-size: 18px; 
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    color: #d10000; 
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    padding: 20px; 
+    background-color: #fff; 
+    color: #000; 
+    font-size: 18px;
+}
+
+/* Estilos para os títulos */
+h1, h2 {
+    color: #d10000; 
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 36px; 
+    font-weight: 700; 
+}
+
+h2 {
+    font-size: 28px; 
+    font-weight: 500; 
+}
+
+/* Estilos para o rodapé */
+footer {
+    background: #000; 
+    color: #fff; 
+    text-align: center; 
+    padding: 15px 0; 
+    position: relative; 
+    width: 100%;
+    font-size: 16px; 
+}
+
+/* Estilos para o formulário de contato */
+form {
+    background-color: #f4f4f4; 
+    padding: 20px; 
+    border: 1px solid #d10000; 
+    border-radius: 5px; 
+    font-size: 18px; 
+}
+
+label {
+    display: block; 
+    margin-bottom: 10px; 
+    color: #d10000; 
+    font-weight: 500; 
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%; 
+    padding: 12px; 
+    margin-bottom: 15px; 
+    border: 1px solid #000; 
+    border-radius: 5px; 
+    font-size: 16px; 
+}
+
+button[type="submit"] {
+    background-color: #d10000; 
+    color: #fff; 
+    padding: 12px 25px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 18px; 
+    font-weight: 700; 
+}
+
+button[type="submit"]:hover {
+    background-color: #ff0000; 
+}
